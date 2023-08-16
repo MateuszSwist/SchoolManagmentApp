@@ -116,7 +116,7 @@ def email_is_important(request, id):
     user = request.user.profile
     message = Message.objects.get(id=id)
     source = request.GET.get("source")
-    print(source)
+
     if source == "important":
         if message.receiver.id == user.id:
             if message.is_important:
