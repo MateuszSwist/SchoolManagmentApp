@@ -113,8 +113,8 @@ def view_grades_teacher(request):
             )
         else:
             messages.error(
-                request, "Wystąpił błąd. Sprawdź poprawność \
-                    danych i spróbuj ponownie."
+                request, "An error occurred. Check the  \
+                    correctness of the data and try again."
             )
             return render(request, "view_grades_teacher_menu.html",
                         {"form": form})
