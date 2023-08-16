@@ -160,7 +160,7 @@ At the outset, the user selects a class and subject, which serve as the foundati
 - Attendance:
 Subsequently, they are directed to the attendance tracking view, where a list of students for the chosen class is generated.
   
-- Mein raport:
+- Main raport:
 Finally, they access the report view, allowing them to update attendance, add grades with brief descriptions, and assign events such as tests or homework. Before finalizing, they input the lesson's topic and provide a short description. Following lesson finalization, each student and their associated parent can review the lesson's occurrences and related events.
 
 - Viewing raports:
